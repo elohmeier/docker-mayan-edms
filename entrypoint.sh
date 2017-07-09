@@ -56,7 +56,7 @@ initial_setup() {
 }
 
 upgrade() {
-    sudo -HEu mayan "/usr/src/mayan/manage.py" "migrate"
+#    sudo -HEu mayan "/usr/src/mayan/manage.py" "migrate"
     sudo -HEu mayan "/usr/src/mayan/manage.py" "purgeperiodictasks"
 }
 
